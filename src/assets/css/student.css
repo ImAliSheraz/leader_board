@@ -1,0 +1,63 @@
+.leftDiv {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.rightDiv {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+.studentInfo {
+  width: 700px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.studentName {
+  padding: 0px;
+  margin: 0px;
+}
+
+.studentUniversity {
+  padding: 0px;
+  margin: 0px;
+}
+
+.studentScore {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+
+.addScoreBtn {
+  border: black solid 1px;
+  border-radius: 100px;
+  line-height: 16px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -3px;
+  left: 7px;
+  cursor: pointer;
+}
+.addScoreBtn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.successLabel {
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  line-height: 17px;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
